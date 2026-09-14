@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1053</width>
+    <height>658</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(155, 0, 5, 255), stop:1 rgba(255, 255, 255, 255)) 
+}
+
+#widget {
+background-color: #fff;
+border-radius: 5px;
+}
+
+QLabel#label {
+color: #000:
+}
+
+QLineEdit {
+border: none;
+border-bottom: 2px solid #cccccc;
+}
+
+QLineEdit:focus {
+border-bottom: 2px solid #28e2a2;
+}
+
+QPushButton {
+background-color: #0d6efd;
+border: 2px solid #fff;
+color: #fff:
+border-radius: 5px;
+padding: 6px;
+margin-top: 10px;
+}
+
+QPushButton:hover,
+QPushButton:clicked {
+background-color: #0b5ed7;
+border: 2px solid #9ac3fe;
+}
+
+
+
+
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>259</x>
+      <y>122</y>
+      <width>614</width>
+      <height>405</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>31</x>
+       <y>63</y>
+       <width>521</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Welcome!</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignmentFlag::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_button">
+     <property name="geometry">
+      <rect>
+       <x>493</x>
+       <y>349</y>
+       <width>79</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1053</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
